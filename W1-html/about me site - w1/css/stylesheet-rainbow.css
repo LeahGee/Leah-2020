@@ -1,0 +1,173 @@
+body {
+    font-family: monaco, monospace;
+    background-image: url(../images/pagebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+
+p{
+    font-size: 20px;
+    color:rgb(255, 249, 249);
+    font-weight: 600;
+}
+
+.header{
+    padding-top:20px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    background-image: url(../images/h-background-rainbow.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    text-shadow:
+    -2px -2px 0 rgb(247, 0, 255),  
+     2px -2px 0 rgb(247, 0, 255),
+     -2px 2px 0 rgb(247, 0, 255),
+    2px 2px 0 rgb(247, 0, 255);
+    height: 300px;
+    width: 100%;
+}
+
+.button-holder{
+    width:100%;
+    margin:20px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.themechanger{
+    background-color:#7e45c7;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+
+
+.header h2{
+    font-size: 35px;
+}
+
+body .section{
+    padding: 20px;
+    margin: 80px;
+    background-color: rgb(49, 28, 112);
+    
+}
+
+.section h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a{
+    font-size: 20px;
+    color: rgb(255, 249, 249);
+}
+
+a:hover{
+    color: rgb(0, 225, 255);
+    }
+
+/* video and image containers so I can make them stay central in the section*/
+.video-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-container{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*footer containing the copyright text*/
+.footer{
+    padding:30px;
+    margin:20px;
+    margin-top:50px;
+    border-top: 2px  solid rgb(211, 211, 211);
+}
+
+/*unique styling for sections*/
+#sect01{
+    background-color:rgb(197, 0, 0);
+    border: 4px rgb(255, 102, 0) solid;
+}
+
+#sect02{
+    background-color:rgb(255, 102, 0);
+    border: 4px rgb(247, 205, 22) solid;
+}
+
+#sect03{
+    background-color:rgb(247, 205, 22);
+    border: 4px rgb(79, 197, 0) solid;
+}
+
+#sect04{
+    background-color:rgb(79, 197, 0);
+    border: 4px rgb(0, 197, 148) solid;
+}
+
+#sect05{
+    background-color:rgb(0, 197, 148);
+    border: 4px rgb(0, 151, 197) solid;
+}
+
+#sect06{
+    background-color:rgb(0, 151, 197);
+    border: 4px rgb(13, 0, 197) solid;
+}
+
+#sect07{
+    background-color:rgb(13, 0, 197);
+    border: 4px rgb(102, 0, 197) solid;
+}
+
+#sect08{
+    background-color:rgb(102, 0, 197);
+    border: 4px rgb(174, 0, 197) solid;
+}
+
+#sect09{
+    background-color:rgb(174, 0, 197);
+    border: 4px rgb(197, 0, 82) solid;
+}
+
+#sect10{
+    text-align: center;
+    background-color:rgb(197, 0, 82);
+    border: 4px rgb(245, 98, 0) solid;
+}
+
+.sect11-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sect11{
+    text-align: center;
+    width: 500px;
+    background-color:rgb(245, 98, 0);
+    border: 4px rgb(247, 205, 22) solid;
+}
+
+#sect11 p{
+    padding-bottom:30px;
+}
+
+#sect11 img{
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+}
