@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Navigation Exercise 05</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+
+<body>
+    <div class="button-div">
+        <a href="homepage.html" class="navigation-button" target="_parent">Home Page</a>
+    </div>
+    <div class="example-div">
+        <div class="example-div">
+            <p>The anchor tag defines a hyperlink, which is used to link from one page to another.
+
+            The most important attribute of the anchor element is the href attribute, which indicates the link's destination.
+           </br>Here's and example: <a class="button-basic" href="http://uhi.ac.uk" target="_blank">Click here!</a></p>
+        </div>
+        <div class="example-div">
+            <p>This button tag is a clickable button. Inside a button element you can put text (and tags like < i >, < strong >, < br >, < img >, etc.). This is not possible with a button created with the < input > element! </br> Here's an example:<a class="button-basic" href="http://uhi.ac.uk" target="_blank"><button type="button-basic">Click here</button></a></p>
+        </div>
+        <div class="example-div">
+            <p>This button is inside a form tag. It transfers you to a different page but stays on the same browser.</p>
+            <form>
+                <button class="button-basic" formaction="https://youtube.com">Button!</button>
+            </form>
+        </div>
+        <div class="example-div">
+            <p>Button that alerts the user. <button class="button-basic" type="button"
+                    onclick="alert( 'Yall got any cheese?')">Howdy!</button></p>
+        </div>
+        <div class="example-div">
+            <p>This button is inside of a form tag with an input box to form a search facility.
+            <form id="search">Search Term: <input type="text" name="q" value="cheese">
+                <button type="submit" class="button-basic" formaction="https://www.google.com/search">Search</button>
+            </form>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
